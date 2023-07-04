@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:grid;
+    justify-content: center; 
+    align-content: center;
+    min-height:110vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    word-spacing: 0.5em;
+    background : #a8f5ff; 
+}
+#devl1{
+    position:relative;
+    width: 340px;
+    height: 370px; 
+    align-content: center;
+    border: 1.5px solid rgb(77, 73, 73);
+    border-radius: 5px;
+}
+#devl1 form{
+    inset: 4px;
+    background: #a8f5ff;
+    padding: 8px;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-family: ;
+}
+#devl1 form h2{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+}
+#box{
+    position: relative;
+    margin: 0px 0px 20px 0px;
+}
+#box input{
+    position: relative;
+    text-align:left;
+    width: 100%;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    outline: none;
+    box-shadow: none;
+    z-index: 2;
+}
+#box2 input{
+    position: relative;
+    width: 100%;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    outline: none;
+    box-shadow: none;
+    z-index: 2;  
+}
+#sub{
+    position: absolute;
+    margin-top: 235px;
+    width: 100%;
+}
+#sub input{
+    position: absolute;
+    width: 95%;
+    background: transparent;
+    outline: none;
+    /* margin-bottom: 150px; */
+    background-color: #3ed8ff;
+}
+#box2 input span{
+    position: absolute;
+    padding: 20px 10px 10px;
+    left: 0;
+    transition: 0.5s;
+}
+#devl1 form #box input:focus ~ span,
+#devl1 form #box2 input:focus ~ span{
+    color: #06154c;
+    font-size: 0.75em;
+    transform: translateX(-36px);
+}
+.a{
+    padding: 7px;
+}
+.button{
+    text-decoration: none;
+    border: 1px solid #3ed8ff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    background-color: #3ed8ff;
+}
+.button:hover{
+    color: rgb(17, 19, 19);
+    background-color: #32badc;
+}
+#rem{
+    position: absolute;
+    padding-top: 20px;
+    margin-top:180px ;
+}
+form{
+    position: absolute;
+}
+#link2{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 280px;
+}
+.head{
+    position: absolute;
+    margin-top: 280px;
+}
+#link1 {
+    position: absolute;
+    margin-top: 315px;
+}
+.buttons{
+    text-decoration: none;
+    
+}
+.buttons::before{
+    background-color: rgb(51, 193, 100);
+}
+.buttons:hover{
+    /* background: white; */
+    color: #06154c;
+    
+}
+.button:hover::before{
+
+}
+.button:hover::after{
+    color: black;
+}
+
+
+  
+    
